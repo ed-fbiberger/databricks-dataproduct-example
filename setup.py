@@ -19,7 +19,7 @@ setup(
     # to ensure that changes to wheel package are picked up when used on all-purpose clusters
     version=stock_last_sales.__version__ + "+" + datetime.datetime.utcnow().strftime("%Y%m%d.%H%M%S"),
     url="https://databricks.com",
-    author="jochen.christ@innoq.com",
+    author="fabian.biberger@entropy-data.com",
     description="wheel file based on stock_last_sales/src",
     packages=find_packages(where='./src'),
     package_dir={'': 'src'},
